@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f7f2">
-  <meta name="description" content="산과 온천, 따뜻한 이야기가 있는 도시 아산을 만나보세요. 현충사부터 외암민속마을까지 아산 여행을 소개합니다.">
-  <title>아산, 마음이 쉬어가는 도시</title>
+  <meta name="theme-color" content="#09274b">
+  <meta name="description" content="한국자동차연구원(KATECH)은 미래자동차 기술혁신과 기업의 성장을 지원합니다.">
+  <title>한국자동차연구원 KATECH</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,95 +13,37 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="아산, 처음으로">
-      <span class="brand-mark" aria-hidden="true">아</span>
-      <span>아산 <span class="brand-light">ASAN</span></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="메뉴 열기">
-      <span></span><span></span>
-    </button>
-    <nav class="main-nav" id="main-nav" aria-label="주요 메뉴">
-      <a href="#story">아산 이야기</a>
-      <a href="#places">여행 명소</a>
-      <a href="#taste">아산의 맛</a>
-      <a class="nav-cta" href="#visit">여행 준비하기 <span aria-hidden="true">↗</span></a>
-    </nav>
+    <a class="brand" href="#top" aria-label="한국자동차연구원 홈으로"><span class="brand-emblem" aria-hidden="true">K</span><span class="brand-title">한국자동차연구원<small>KOREA AUTOMOTIVE TECHNOLOGY INSTITUTE</small></span></a>
+    <nav class="utility-nav" aria-label="보조 메뉴"><a href="https://katech.nlobbygo.kr/" target="_blank" rel="noreferrer">방문자등록신청</a><a href="https://www.katech.re.kr/eng" target="_blank" rel="noreferrer">ENGLISH</a><a href="https://www.katech.re.kr/page/dc6d1a39-c051-425a-af2b-2854ced17aa8">발간보고서</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="메뉴 열기"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="주요 메뉴"><a href="#about">연구원소개</a><a href="#research">연구분야</a><a href="#support">기업지원</a><a href="#news">연구원소식</a><a class="nav-cta" href="https://www.katech.re.kr/page/80713244-26b5-490a-a367-b500b1106bad" target="_blank" rel="noreferrer">시험·검사 문의 <span aria-hidden="true">↗</span></a></nav>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-image" role="img" aria-label="산과 호수가 어우러진 평화로운 풍경"></div>
-      <div class="hero-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow hero-eyebrow"><span></span> CHUNGCHEONGNAM-DO · KOREA</p>
-        <h1 id="hero-title">산과 온천, 그리고<br>따뜻한 이야기가 있는 곳</h1>
-        <p class="hero-copy">잠시 멈춰, 아산의 다정한 풍경 속으로</p>
-        <a class="button button-light" href="#story">아산 만나보기 <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="hero-index"><span>01</span><i></i> 03</div>
-      <p class="hero-caption">A quiet morning, a slower kind of journey.</p>
-    </section>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title"><div class="hero-image"><img src="https://www.katech.re.kr/image?path=202402/72315f88-17ae-40dd-b550-490319f488c3.png" alt="한국자동차연구원 메인 비주얼 이미지" fetchpriority="high"></div><div class="hero-shade"></div><div class="hero-grid" aria-hidden="true"></div><div class="hero-content"><p class="eyebrow"><span></span> KOREA AUTOMOTIVE TECHNOLOGY INSTITUTE</p><h1 id="hero-title">미래 모빌리티의 혁신,<br><strong>한국자동차연구원이<br>함께합니다.</strong></h1><p class="hero-copy">자동차 산업의 기술 경쟁력을 높이고<br>기업과 함께 미래차 시대를 열어갑니다.</p><a class="button button-light" href="#about">연구원 알아보기 <span aria-hidden="true">↗</span></a></div><div class="hero-pagination" aria-label="메인 배너"><span class="current">01</span><i></i><span>01</span></div><div class="hero-caption"><span>기술로 연결하는 미래 모빌리티</span><span>MAIN VISUAL · KATECH</span></div></section>
 
-    <section class="intro section-wrap" id="story">
-      <div class="intro-label"><span class="small-star" aria-hidden="true">✳</span><span>GET TO KNOW ASAN</span></div>
-      <div class="intro-body">
-        <p class="eyebrow">천천히 둘러볼수록, 더 좋아지는 도시</p>
-        <h2>여행의 속도를 늦추면<br>아산의 <em>진짜 매력</em>이 보여요.</h2>
-        <div class="intro-bottom">
-          <p>충남의 넉넉한 자연과 오랜 시간이 만든 이야기.<br>온천에 몸을 담그고, 오래된 마을을 걷고,<br class="desktop-only"> 이곳의 계절을 천천히 만나보세요.</p>
-          <div class="intro-stats" aria-label="아산 소개">
-            <div><strong>溫</strong><span>따스한 온천의 도시</span></div>
-            <div><strong>山</strong><span>자연과 역사의 풍경</span></div>
-            <div><strong>安</strong><span>마음이 편안해지는 여행</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="welcome section-wrap" id="about"><div class="section-kicker"><span></span> ABOUT KATECH <i></i> 01</div><div class="welcome-content"><div><p class="eyebrow">자동차 산업의 내일을 연구합니다</p><h2>기술의 한계를 넘어<br><em>미래 모빌리티</em>를 열다</h2></div><div class="welcome-copy"><p>한국자동차연구원은 자동차 산업의 기술혁신과 기업의 성장을 지원하는 전문 연구기관입니다. 미래자동차 핵심기술 개발부터 시험·검사, 기술이전, 교육훈련까지 산업 현장과 함께합니다.</p><a class="text-link" href="https://www.katech.re.kr" target="_blank" rel="noreferrer">한국자동차연구원 소개 <span aria-hidden="true">↗</span></a></div></div><div class="mission-row"><div><strong>01</strong><span>미래차 핵심기술 연구</span></div><div><strong>02</strong><span>기업 기술사업화 지원</span></div><div><strong>03</strong><span>자동차 산업 경쟁력 강화</span></div></div></section>
 
-    <section class="places-section" id="places">
-      <div class="section-wrap">
-        <div class="section-heading">
-          <div><p class="eyebrow">PLACES TO SLOW DOWN</p><h2>아산에서 만나는<br><em>세 가지 풍경</em></h2></div>
-          <p class="section-note">오래 기억하고 싶은 순간은<br>대개 천천히 걸을 때 찾아옵니다.</p>
-        </div>
-        <div class="place-grid">
-          <article class="place-card place-card-large">
-            <div class="place-photo photo-hyeonchungsa" role="img" aria-label="나무가 우거진 한국의 전통 정원"></div>
-            <div class="place-copy"><span class="place-number">01 / HISTORY</span><h3>현충사</h3><p>충무공 이순신의 정신과<br>고요한 사계절을 만나는 곳</p><a href="https://www.hcs.go.kr/" target="_blank" rel="noreferrer">장소 알아보기 <span aria-hidden="true">↗</span></a></div>
-          </article>
-          <article class="place-card place-card-offset">
-            <div class="place-photo photo-oeam" role="img" aria-label="초가집과 돌담이 이어지는 전통마을"></div>
-            <div class="place-copy"><span class="place-number">02 / HERITAGE</span><h3>외암민속마을</h3><p>돌담길 따라 만나는<br>옛 마을의 다정한 시간</p><a href="https://oeam.co.kr/" target="_blank" rel="noreferrer">장소 알아보기 <span aria-hidden="true">↗</span></a></div>
-          </article>
-          <article class="place-card">
-            <div class="place-photo photo-spavis" role="img" aria-label="따뜻한 온천과 편안한 휴식"></div>
-            <div class="place-copy"><span class="place-number">03 / WELLNESS</span><h3>온양온천</h3><p>오랜 역사가 흐르는 물에<br>몸과 마음을 맡겨보세요</p><a href="https://www.asan.go.kr/tour/" target="_blank" rel="noreferrer">여행 정보 보기 <span aria-hidden="true">↗</span></a></div>
-          </article>
-        </div>
-        <p class="image-credit">아산의 대표 관광지를 소개합니다 · 방문 전 운영 시간 및 이용 정보를 확인해 주세요.</p>
-      </div>
-    </section>
+    <section class="research-section" id="research"><div class="section-wrap"><div class="section-heading"><div><div class="section-kicker"><span></span> RESEARCH & TECHNOLOGY <i></i> 02</div><h2>미래차를 움직이는<br><em>핵심 연구기술</em></h2></div><p>축적된 연구역량과 융합기술로<br>자동차 산업의 새로운 가능성을 만듭니다.</p></div><div class="research-grid">
+      <a class="research-card research-card-large" href="https://www.katech.re.kr/page/5a2cc0ac-d02d-406c-afd3-5eb5b61c2686" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1100&q=85" alt="인공지능과 로봇 기술을 상징하는 이미지" loading="lazy"><span class="card-number">01 / DIGITAL</span><div><small>DATA · INTELLIGENCE</small><h3>AI·빅데이터</h3><p>데이터 기반의 스마트 모빌리티 기술</p></div><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="research-card" href="https://www.katech.re.kr/page/daa1eba7-ab95-4060-a171-632347bf5ad7" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=85" alt="도로 위를 달리는 자동차 이미지" loading="lazy"><span class="card-number">02 / AUTONOMY</span><div><small>SAFE · CONNECTED</small><h3>자율주행기술</h3><p>안전하고 지능적인 이동의 미래</p></div><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="research-card" href="https://www.katech.re.kr/page/daa1eba7-ab95-4060-a171-632347bf5ad7" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=900&q=85" alt="전기차 충전과 전동화 기술 이미지" loading="lazy"><span class="card-number">03 / ELECTRIFICATION</span><div><small>EV · BATTERY</small><h3>전기차</h3><p>지속가능한 전동화 핵심기술</p></div><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="research-card" href="https://www.katech.re.kr/page/daa1eba7-ab95-4060-a171-632347bf5ad7" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=900&q=85" alt="청정에너지와 수소 기술 이미지" loading="lazy"><span class="card-number">04 / HYDROGEN</span><div><small>HYDROGEN · CLEAN ENERGY</small><h3>수소전기차</h3><p>친환경 에너지 모빌리티 구현</p></div><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="research-card" href="https://www.katech.re.kr/page/4185b59f-63cf-4f3c-9a42-d87d811ca123" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=85" alt="모빌리티 융합 부품과 미래 운송기술 이미지" loading="lazy"><span class="card-number">05 / MOBILITY</span><div><small>ADVANCED · MOBILITY</small><h3>미래 첨단 운송기기</h3><p>새로운 이동수단과 융합기술 연구</p></div><span class="card-arrow" aria-hidden="true">↗</span></a>
+    </div></div></section>
 
-    <section class="quote-section" aria-label="아산의 매력">
-      <div class="quote-bg"></div>
-      <div class="quote-content"><span class="quote-mark" aria-hidden="true">“</span><p>멀리 떠나지 않아도 괜찮아요.<br>좋은 쉼은 가까운 곳에 있으니까.</p><span class="quote-caption">YOUR SMALL PAUSE, IN ASAN</span></div>
-    </section>
+    <section class="support-section" id="support"><div class="support-inner section-wrap"><div class="section-kicker"><span></span> PARTNERING WITH INDUSTRY <i></i> 03</div><div class="support-heading"><div><p class="eyebrow">기업과 함께 성장하는 기술 파트너</p><h2>연구 성과가 산업의<br><em>성장으로 이어지도록</em></h2></div><p>기업의 기술개발부터 사업화까지<br>현장에 필요한 지원을 제공합니다.</p></div><div class="support-grid"><a href="https://www.katech.re.kr/page/1fb92e4d-3587-4b0e-92d5-44cd420be5fa" target="_blank" rel="noreferrer"><span class="support-icon">01</span><span class="support-label">기업지원</span><strong>미래차 전환포털</strong><span class="support-arrow">↗</span></a><a href="https://www.katech.re.kr/page/80713244-26b5-490a-a367-b500b1106bad" target="_blank" rel="noreferrer"><span class="support-icon">02</span><span class="support-label">시험 · 검사</span><strong>시험검사 서비스</strong><span class="support-arrow">↗</span></a><a href="https://www.katech.re.kr/page/bb892105-ffd2-4e4c-8315-d7e3df437bbb" target="_blank" rel="noreferrer"><span class="support-icon">03</span><span class="support-label">기술사업화</span><strong>기술이전 안내</strong><span class="support-arrow">↗</span></a><a href="https://www.katech.re.kr/page/a00330aa-fd91-4ae2-8c80-5c135678475d" target="_blank" rel="noreferrer"><span class="support-icon">04</span><span class="support-label">인재양성</span><strong>교육훈련 안내</strong><span class="support-arrow">↗</span></a></div></div></section>
 
-    <section class="taste-section section-wrap" id="taste">
-      <div class="taste-heading"><p class="eyebrow">A TASTE OF ASAN</p><h2>여행의 기억을 채우는<br><em>아산의 맛</em></h2><p>한 끼 식사도 여행의 풍경이 되는 곳.<br>아산에서 꼭 맛보고 싶은 이야기를 만나보세요.</p></div>
-      <div class="taste-list">
-        <article class="taste-item"><span class="taste-icon" aria-hidden="true">01</span><div><h3>온양온천시장</h3><p>시장 골목을 따라 만나는 소박하고 정겨운 먹거리</p></div><span class="taste-arrow" aria-hidden="true">↗</span></article>
-        <article class="taste-item"><span class="taste-icon" aria-hidden="true">02</span><div><h3>아산의 로컬 식탁</h3><p>충남의 신선한 재료로 차려낸 편안한 한 끼</p></div><span class="taste-arrow" aria-hidden="true">↗</span></article>
-        <article class="taste-item"><span class="taste-icon" aria-hidden="true">03</span><div><h3>따뜻한 온천 후 한 잔</h3><p>느긋한 오후를 완성해주는 동네 카페와 차 한 잔</p></div><span class="taste-arrow" aria-hidden="true">↗</span></article>
-      </div>
-    </section>
+    <section class="news-section section-wrap" id="news"><div class="news-top"><div><div class="section-kicker"><span></span> KATECH NEWSROOM <i></i> 04</div><h2>연구원의 <em>새로운 소식</em></h2></div><a class="text-link" href="https://www.katech.re.kr" target="_blank" rel="noreferrer">전체 소식 보기 <span aria-hidden="true">↗</span></a></div><div class="news-columns">
+      <section class="news-panel" aria-labelledby="news-title"><div class="panel-heading"><div><span>NEWS</span><h3 id="news-title">연구원 소식</h3></div><a href="https://www.katech.re.kr" target="_blank" rel="noreferrer" aria-label="연구원 소식 더보기">＋</a></div><a class="featured-news" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><img src="https://www.katech.re.kr/image?path=202611/f6379313-353f-488b-bc27-344bf33beb73.jpg" alt="한국자동차연구원 연구원 소식 사진" loading="lazy"><span>RESEARCH IN MOTION</span><strong>미래 모빌리티 기술과 산업 현장을 연결합니다</strong></a><a class="news-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span>행사</span><strong>WHE(세계수소엑스포) 2026 전시부스</strong><time>11.04</time></a><a class="news-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span>소식</span><strong>제5회 수소의 날 기념식 및 WHE 2026 개막식</strong><time>11.03</time></a></section>
+      <section class="notice-panel" aria-labelledby="notice-title"><div class="panel-heading"><div><span>NOTICE</span><h3 id="notice-title">공지사항</h3></div><a href="https://www.katech.re.kr" target="_blank" rel="noreferrer" aria-label="공지사항 더보기">＋</a></div><a class="notice-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span class="notice-tag">모집</span><strong>AI-DfAM 현장 맞춤형 인력양성 프로그램 참여기업 모집</strong><time>10.28</time></a><a class="notice-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span class="notice-tag">안내</span><strong>산업통상부 임직원 친인척 채용 신고센터 운영 안내</strong><time>10.20</time></a><a class="notice-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span class="notice-tag">지원</span><strong>충남 천안·아산 강소특구 혁신스타트업 특례보증</strong><time>10.12</time></a><a class="notice-row" href="https://www.katech.re.kr" target="_blank" rel="noreferrer"><span class="notice-tag">사업</span><strong>저탄소 미래차 부품 기술 지원 및 사업화 지원 공고</strong><time>10.07</time></a></section>
+    </div><p class="content-note">※ 연구원 소식과 공지 제목은 공식 사이트에서 확인한 내용을 바탕으로 요약했습니다. 최신 일정과 상세 정보는 KATECH 홈페이지에서 확인해 주세요.</p></section>
 
-    <section class="visit-section" id="visit">
-      <div class="visit-inner"><div><p class="eyebrow">YOUR NEXT LITTLE GETAWAY</p><h2>다음 주말에는<br>아산으로 떠나볼까요?</h2><p>교통과 축제, 더 많은 여행 정보는<br>아산시 문화관광 홈페이지에서 확인하세요.</p></div><a class="button button-dark" href="https://www.asan.go.kr/tour/" target="_blank" rel="noreferrer">아산 여행 정보 <span aria-hidden="true">↗</span></a></div>
-    </section>
+    <section class="contact-section"><div class="contact-inner section-wrap"><div><p class="eyebrow">BUILD THE FUTURE TOGETHER</p><h2>기업의 미래차 전환,<br>한국자동차연구원이 함께합니다.</h2><p>시험·검사와 기업지원 서비스를 확인해 보세요.</p></div><a class="button button-dark" href="https://www.katech.re.kr/page/1fb92e4d-3587-4b0e-92d5-44cd420be5fa" target="_blank" rel="noreferrer">기업지원 서비스 <span aria-hidden="true">↗</span></a></div></section>
   </main>
 
-  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">아</span><span>아산 <span class="brand-light">ASAN</span></span></a><p>산과 온천, 그리고 따뜻한 이야기가 있는 곳.</p><a class="to-top" href="#top">맨 위로 ↑</a><small>© 2026 ASAN, A SLOWER JOURNEY. 이 페이지는 아산을 소개하기 위한 비공식 여행 페이지입니다.</small></footer>
+  <footer class="site-footer"><div class="footer-main section-wrap"><div><a class="brand footer-brand" href="#top"><span class="brand-emblem" aria-hidden="true">K</span><span class="brand-title">한국자동차연구원<small>KOREA AUTOMOTIVE TECHNOLOGY INSTITUTE</small></span></a><p class="footer-address">(31214) 충청남도 천안시 동남구 풍세면 풍세로 303 한국자동차연구원</p><p class="footer-tel">TEL : <a href="tel:0415593114">041-559-3114</a> <span>/</span> FAX : 041-559-3029</p></div><div class="footer-links"><a href="https://www.katech.re.kr/privacy">개인정보보호정책</a><a href="https://www.katech.re.kr/copyright">저작권 정책</a><a href="https://katech.nlobbygo.kr/" target="_blank" rel="noreferrer">방문예약</a><a href="https://www.katech.re.kr/eng" target="_blank" rel="noreferrer">English</a></div></div><div class="footer-bottom section-wrap"><small>Copyright © 2020 KATECH (Korea Automotive Technology Institute). All rights reserved.</small><a href="#top">맨 위로 ↑</a></div></footer>
 </body>
 </html>
